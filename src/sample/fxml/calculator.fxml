@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.CalculatorControll">
+   <children>
+      <Label fx:id="result" text="Label">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="215.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="284.0" prefWidth="105.0">
+               <children>
+                  <Button fx:id="one" mnemonicParsing="false" onAction="#setOne" prefWidth="60.0" text="1">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="four" mnemonicParsing="false" onAction="#setFour" prefWidth="60.0" text="4">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="seven" mnemonicParsing="false" onAction="#setSeven" prefWidth="60.0" text="7">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="delite" mnemonicParsing="false" onAction="#setDelite" prefWidth="60.0" text="CE">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefWidth="105.0">
+               <children>
+                  <Button fx:id="two" mnemonicParsing="false" onAction="#setTwo" prefWidth="60.0" text="2">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="five" mnemonicParsing="false" onAction="#setFive" prefWidth="60.0" text="5">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="eight" mnemonicParsing="false" onAction="#setEight" prefWidth="60.0" text="8">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="nol" mnemonicParsing="false" onAction="#setNol" prefWidth="60.0" text="0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefWidth="105.0">
+               <children>
+                  <Button fx:id="three" mnemonicParsing="false" onAction="#setThree" prefWidth="60.0" text="3">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="six" mnemonicParsing="false" onAction="#setSix" prefWidth="60.0" text="6">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="nine" mnemonicParsing="false" onAction="#setNine" prefWidth="60.0" text="9">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="equally" mnemonicParsing="false" onAction="#test" prefWidth="60.0" text="=">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefWidth="105.0">
+               <children>
+                  <Button fx:id="multiply" mnemonicParsing="false" onAction="#setMultiply" prefWidth="60.0" text="*">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="divide" mnemonicParsing="false" onAction="#setDivide" prefWidth="60.0" text="/">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="add" mnemonicParsing="false" onAction="#setAdd" prefWidth="60.0" text="+">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="away" mnemonicParsing="false" onAction="#setAway" prefWidth="60.0" text="-">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
