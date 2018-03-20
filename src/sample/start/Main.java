@@ -5,8 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import sample.controller.MineWindow;
 
 public class Main extends Application {
+    MineWindow m = new MineWindow();
 
     @Override
     public void start(Stage primaryStage) throws Exception{
